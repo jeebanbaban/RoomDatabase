@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ingreens.roomorm.activities.StudentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Student Name:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/etStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student Name"
+            android:singleLine="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Qualification:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/etQualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Qualification"
+            android:singleLine="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.Address:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Address:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.Email ID:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/etEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email-ID"
+            android:singleLine="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.Mobile No.:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/etMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile No"
+            android:singleLine="true"
+            android:inputType="number"
+            android:maxLength="10"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/btnSubmitShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit and Show"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Student Name:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tvStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textSize="16sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Qualification:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/tvQualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qualification"
+            android:textSize="16sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.Address:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textSize="16sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.Email ID:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/tvEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email ID"
+            android:textSize="16sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.Mobile No:"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/tvMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile No"
+            android:textSize="16sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
